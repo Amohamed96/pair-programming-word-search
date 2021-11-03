@@ -26,7 +26,3 @@ const wordSearch = (letters, word) => {    /// letters is the matrix and word is
 
 module.exports = wordSearch
 
-//             [ [d,e,f,g,h] [a,b,c,g,h]  [d,f,d,t,r] [ f,r,a,n,k]  ]
-//                   map0           map1        map2          map3
-// result -->
-//horizontaljoin =  [ ["defgh"]   ["abcgh"]  ["dfdtr"]  ["frank"]  ]
